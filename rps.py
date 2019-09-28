@@ -18,7 +18,8 @@ while(True):
     if(game[1][1]==-1):
         break
     elif(game[1][1]>2 or game[1][1]<-1):
-        print(Fore.RED + "\nPlease enter 0,1,2 for rock paper or scissors (-1 to exit)" + Fore.BLACK)    
+        print(Fore.RED + "\nPlease enter 0,1,2 for rock paper or scissors (-1 to exit)" + Fore.BLACK)
+        continue
     
     result = game[0][1]-game[1][1]
 
